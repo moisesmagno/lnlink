@@ -1,0 +1,2032 @@
+/*SMARTPHONE - RETRATO (MÁXIMO 320PX)*/
+@media all and (max-width: 320px){
+    .tela_ajax img{width: 23%;}
+    /*********************************************************
+    TELA DE LOGIN
+    *********************************************************/
+    .logotipo{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .idiomas_links{
+        width: 100%;
+    }
+
+    .logotipo img{
+        float: none;
+        width: 220px;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+
+    .idiomas_login{
+        float:right;
+        width: 100%;
+        height: 40px;
+        margin-top: 4%;
+        margin-right: 0;
+    }
+
+    .env_idiomas{
+        width: 153px;
+    }
+
+    .cc_idioma_login{
+        width: 26px;
+        height: 26px;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    
+     .cc_idioma_login span{
+        margin-top: 6px;
+     }
+
+    .links_login{
+        margin-top: -5px;
+        font-size: 12px;
+    }
+    
+    .env_link{
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+
+    .env_form_apresentacao_login{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 220px;
+    }
+
+    .env_form_apresentacao_login p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font: 14px 'Avenir-book';
+    }
+
+    .env_form_apresentacao_login p span{
+        display: none;
+    }
+
+    .env_form_login{
+        width: 218px;
+    }
+
+    .form_login{
+        float: left;
+        width: 100%;
+    }
+
+    .form_login h1{
+        margin-top: 3%;
+        font: 16px 'Avenir-book';
+        font-weight: bold;
+    }
+
+    .form_login input[type="email"],
+    .form_login input[type="password"]{
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .form_login a{
+        margin-top: 6%;
+        font: 12px 'Avenir-book';
+    }
+
+    .form_login input[type="submit"]{
+        font-size: 12px;
+        height: 30px;
+    }
+
+    .env_rodape_login{
+        height: 30px;
+    }
+
+    .env_rodape_login p{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_rodape_login p span{
+        display: none;
+    }
+
+    .form_login span{
+        float: left;
+        width: 100%;
+        font: 12px 'Avenir-book';
+        color: #eb5439;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+    #dd_incorretos_login{
+        width: 90%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font: 12px 'Avenir-book';
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    /*********************************************************
+    FIM DA TELA DE LOGIN
+    *********************************************************/    
+
+    /*********************************************************
+    HEADER RESPONSIVO
+    *********************************************************/
+    .env_header_geral{
+        display: none;
+    }
+
+    .env_header_responsivo{
+        display: block;
+    }
+
+    .logotipo_responsivo a img{
+        width: 45px;
+        margin-top: 11px;
+    }
+
+    .opcoes_responsivo a,
+    .usuario_responsivo a,
+    .menu_responsivo a{
+        height: 40px;
+    }
+
+    .opcoes_responsivo a img,
+    .usuario_responsivo a img,
+    .menu_responsivo a img{
+        width: 15px;
+        margin-top: 13px;
+        margin-left: 12.5px;
+        margin-right: 12.5px;
+    }
+
+    .menu_responsivo a img{width: 23px;}
+
+    .cont_menu_responsivo a span,
+    .cont_usuario_responsivo a span,
+    .env_links_responsivos a span{
+        font: 16px 'Avenir-book';
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    /*********************************************************
+    FIM DO HEADER RESPONSIVO
+    *********************************************************/ 
+
+    /*********************************************************
+    CATALOGO
+    *********************************************************/
+   /*Caixa para conteudos, buscadores dinámicos e responsivos*/
+    .cx_conteudo_responsivo{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0%;
+        border: 0px solid #fff;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+        background: #fff;
+    }
+
+    .tt_cx_conteudo_responsivo{
+        width: 160px;
+        margin-left: 0%;
+    }
+
+    .tt_cx_conteudo_responsivo span{
+        font: 13px 'Avenir-book';
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    .env_buscador_catalogo{
+        margin-top: 60px;
+        overflow: hidden;   
+    }
+
+    .env_lupa_buscador{float: left; display: none; width: 100%; }
+    .env_input_buscador{float: left; width: 100%;}
+    .env_flecha_abre_fecha{float: left; width: 100%; text-align: center;}
+    
+    .env_input_buscador img{
+        display: block;
+        width: 13px;
+        margin-top: 44px;
+    }
+
+    .buscador{
+        height: 112px;
+    }
+
+    .lupa_catalogo{
+        float: left;
+        width: 18px;
+        margin-top: 42px;
+        margin-left: 12px;
+    }
+
+    .input_buscador_catalogo{
+        width: 90.5%;
+        height: 30px;
+        margin-left: 1%;
+        padding-left: 6%;
+    }
+
+    .flecha_abre_fecha_catalogo{
+        float: none;
+        width: 8px;
+        margin-top: 15px;
+    }
+
+    .env_duplas_filtro{
+        float: left;
+        width: 100%;
+        margin-top: 3.3% !important;
+    }
+
+    .filtro_catalogo label span{
+        font: 13px 'Avenir-book';
+    }
+
+    .filtro_catalogo label select{
+        font: 13px 'Avenir-book'; 
+    }
+
+    .separador_busca_catalogo{
+        margin-top: 3.3%;
+    }
+
+    .form_buscador_catalogo input[type="submit"]{
+        font-size: 13px;
+    }
+
+    .linha_catalogo_vazio{
+        margin-top: 7%;
+    }
+
+    .resultados_busca_catalogo p{
+        font: 12px 'Avenir-book';
+        margin-left: 2%;
+    }
+     .resultados_busca_catalogo p span{
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .env_tt_resultados_catalogo{
+        font-size: 13px;
+    }
+
+    .env_tt_resultados_catalogo span{
+        width: 98.3%;
+    }
+
+    .linha_resultado_catalogo{
+        height: auto !important;
+        font: 12px 'Avenir-book' !important; 
+    }
+
+    .nome_exame_catalogo{
+        width: 100%;
+        height: auto !important;
+    }
+
+    .nome_exame_catalogo span{
+        width: 97%;
+        height: auto !important;
+        line-height: normal !important;
+        margin-left: 0px;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 13px;
+        padding-bottom: 10px;
+    }
+
+    .icone_add{
+        display: none;
+    }
+
+    .env_filtro_flutuante_lateral{display: none;}
+    /*********************************************************
+    FIM DO CATALOGO
+    *********************************************************/
+
+    /*********************************************************
+    LOGOTIPO CINZA
+    *********************************************************/
+        .env_logo_cinza_2 img, 
+    .env_logo_cinza img{
+        width: 80px;
+    }
+
+
+    .env_logo_cinza_2{margin-top: 10px;}
+    /*********************************************************
+    FIM DO LOGOTIPO CINZA
+    *********************************************************/   
+
+    /*********************************************************
+    RODAPE
+    *********************************************************/
+    .env_rodape_geral p{
+        font: 13px 'Avenir-book';
+    }
+
+    .env_rodape_geral p span{display: none;}
+    /*********************************************************
+    FIM DO RODAPE
+    *********************************************************/  
+
+    /*********************************************************
+    PÁGINA DE RESULTADOS
+    *********************************************************/
+     /*Buscador e opções de Busca*/
+    .env_cx_filtro_opcoes{
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 60px;
+    }
+
+    .filtro_opcoes_busca{
+        height: 44px;
+    }
+
+    .lupa_azul_filtro_busca_pg_resultados,
+    .lupa_branca_filtro_busca_pg_resultados{
+        width: 15px;
+        padding: 6px;
+        margin-top: 10px;
+        margin-left: 0.8%;
+        display: none;
+    }
+
+   .lupa_branca_filtro_busca_pg_resultados{
+        display: block; 
+        background: transparent;
+    }
+
+    .filtro_opcoes_busca h3{
+        display: none;
+    }
+    
+    .filtro_opcoes_busca h3 span{display: none;}
+
+    .form_filtro_busca{
+        width: 85%;
+        height: 32px;
+        margin-top: 8px;
+        margin-left: 1.5%;
+
+    }
+
+    .form_filtro_busca select{
+        height: 32px;
+        font: 14px 'Avenir-book' !important;
+    }
+
+    .texto_busca_resultados{
+        width: 95%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        font-size: 12px;
+    }
+
+    .pula_linha_filtro_op_busca{display: none;}  
+
+    .env_opcoes_busca{
+        width: 99.1%;
+    }
+
+   .form_opcao_busca_referencia_nous,
+    .form_opcao_busca_nhc{width: 90%; margin-left: 5%; margin-top: 25px; margin-bottom: 25px;}
+
+    .form_opcao_busca_exame{width: 98%; margin-top: 25px; margin-bottom: 25px; margin-left: 1%;}
+
+    .form_opcao_busca_exame{width: 98%; margin-top: 25px; margin-bottom: 25px; margin-left: 1%;}
+
+    .form_opcao_busca_data_registro,
+    .form_opcao_busca_data_liberacao,
+    .form_opcao_busca_urgencia_solicitada,
+    .form_opcao_busca_pedidos_seguidos{
+        width: 98%; 
+        margin-top: 25px;
+        margin-left: 1%;
+        margin-bottom: 25px;
+    }
+
+    .env_input_submit{margin-top: 15px;}
+
+    .env_input_submit input[type="submit"]{
+        width: 150px;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    /*Por nome, referência do paciente, NHC*/
+    .nome_op_nomePaciente,
+    .referencia_op_ReferenciaPaciente,
+    .tipoBusca_op_nomePaciente,
+    .tipoBusca_op_referenciaCliente,
+    .tipoBusca_op_nhc,
+    .referencia_op_nhc{
+        float: left;
+        width: 98%;
+        margin-left: 1%;
+    }
+
+
+    .dtInicial_op_nomePaciente,
+    .dtFinal_op_nomePaciente,
+    .dtInicial_op_referenciaCliente,
+    .dtFinal_op_referenciaCliente,
+    .dtInicial_op_nhc,
+    .dtFinal_op_nhc{
+        float: left;
+        width: 48%;
+        margin-left: 1%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nome_op_nomePaciente label,
+    .referencia_op_ReferenciaPaciente label,
+    .referencia_op_nhc label,
+    .tipoBusca_op_nomePaciente label,
+    .tipoBusca_op_referenciaCliente label,
+    .tipoBusca_op_nhc label,
+    .dtInicial_op_nomePaciente label,
+    .dtFinal_op_nomePaciente label,
+    .dtInicial_op_referenciaCliente label,
+    .dtFinal_op_referenciaCliente label,
+    .dtInicial_op_nhc label,
+    .dtFinal_op_nhc label{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    
+    .dtFinal_op_referenciaCliente label{margin-left: 0%;}
+
+    .nome_op_nomePaciente label span,
+    .referencia_op_ReferenciaPaciente label span,
+    .referencia_op_nhc label span,
+    .tipoBusca_op_nomePaciente label span,
+    .tipoBusca_op_referenciaCliente label span,
+    .tipoBusca_op_nhc label span,
+    .dtInicial_op_nomePaciente label span,
+    .dtFinal_op_nomePaciente label span,
+    .dtInicial_op_referenciaCliente label span,
+    .dtFinal_op_referenciaCliente label span,
+    .dtInicial_op_nhc label span,
+    .dtFinal_op_nhc label span{
+        font: 14px 'Avenir-book';
+    }
+
+    .nome_op_nomePaciente label input[type="text"],
+    .referencia_op_ReferenciaPaciente label input[type="text"],
+    .referencia_op_nhc label input[type="text"]{width: 95.1%; font-size: 12px;}
+
+    .tipoBusca_op_nomePaciente label select,
+    .tipoBusca_op_referenciaCliente label select,
+    .tipoBusca_op_nhc label select{width: 100%; height: 34px; font-size: 12px;}
+
+
+
+    .dtInicial_op_nomePaciente label input[type="text"],
+    .dtFinal_op_nomePaciente label input[type="text"],
+    .dtInicial_op_referenciaCliente label input[type="text"],
+    .dtFinal_op_referenciaCliente label input[type="text"],
+    .dtInicial_op_nhc label input[type="text"],
+    .dtFinal_op_nhc label input[type="text"]{
+        width: 60%;
+        font-size: 12px;
+    }
+    /*Fim da estilização por nome e referência do paciente*/
+
+    /*Referência Noûs*/
+    .pedidoNous_op_pedidoNous{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .pedidoNous_op_pedidoNous label span{
+        font-size: 14px;
+    }
+
+    .pedidoNous_op_pedidoNous label input[type="text"]{
+        font-size: 12px;
+    }
+
+    .env_btn_submit_unificados{
+        width: 100%;
+        text-align: center;
+    }
+
+    .env_btn_submit_unificados input[type="submit"]{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    /*Fim da referência Noûs*/
+
+    /*Exame*/
+    .env_linha_op_exames label span{
+        font-size: 14px;
+    }
+
+    .env_linha_op_exames label input[type="text"]{
+         width: 95.4%;
+        float: left;
+    }
+
+    .dtInicial_op_exame,
+    .dtFinal_op_exame{
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .tipoBusca_op_exame{
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .dtInicial_op_exame label span,
+    .dtFinal_op_exame label span,
+    .tipoBusca_op_exame label span{font-size: 14px;}
+
+    .dtInicial_op_exame label input[type="text"],
+    .dtFinal_op_exame label input[type="text"]{
+        width: 60%;
+        font-size: 12px;
+    }
+
+
+    .tipoBusca_op_exame label select{
+        width: 100%;
+        height: 32px;
+        font-size: 12px;
+        height: 34px;
+    }
+    /*Fim do exame*/
+
+    /*Data de registro, data de liberação, urgência solicitada e pedidos seguidos*/
+    .dtInicial_op_dtRegistro,
+    .dtFinal_op_dtRegistro,
+    .dtInicial_op_dtLiberacao,
+    .dtFinal_op_dtLiberacao,
+    .dtInicial_op_urgenciaSolicitada,
+    .dtFinal_op_urgenciaSolicitada,
+    .dtInicial_op_pedidosSeguidos,
+    .dtFinal_op_pedidosSeguidos{
+        float: left;
+        width: 50%;
+    }
+
+    .tipoBusca_op_dtRegistro,
+    .tipoBusca_op_dtLiberacao,
+    .tipoBusca_op_urgenciaSolicitada,
+    .tipoBusca_op_pedidosSeguidos{
+        float: left;
+        width: 100%;
+    }
+
+    .dtInicial_op_dtRegistro label span,
+    .dtFinal_op_dtRegistro label span,
+    .dtInicial_op_dtLiberacao label span,
+    .dtFinal_op_dtLiberacao label span,
+    .dtInicial_op_urgenciaSolicitada label span,
+    .dtFinal_op_urgenciaSolicitada label span,
+    .dtInicial_op_pedidosSeguidos label span,
+    .dtFinal_op_pedidosSeguidos label span{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+    }
+
+    .tipoBusca_op_dtRegistro label span,
+    .tipoBusca_op_dtLiberacao label span,
+    .tipoBusca_op_urgenciaSolicitada label span,
+    .tipoBusca_op_pedidosSeguidos label span{
+        font-size: 14px;
+    }
+
+
+    .dtInicial_op_dtRegistro label input[type="text"],
+    .dtFinal_op_dtRegistro label input[type="text"],
+    .dtInicial_op_dtLiberacao label input[type="text"],
+    .dtFinal_op_dtLiberacao label input[type="text"],
+    .dtInicial_op_urgenciaSolicitada label input[type="text"],
+    .dtFinal_op_urgenciaSolicitada label input[type="text"],
+    .dtInicial_op_pedidosSeguidos label input[type="text"],
+    .dtFinal_op_pedidosSeguidos label input[type="text"]{
+       font-size: 12px;
+    }
+
+    .tipoBusca_op_dtRegistro label select,
+    .tipoBusca_op_dtLiberacao label select,
+    .tipoBusca_op_urgenciaSolicitada label select,
+    .tipoBusca_op_pedidosSeguidos label select{
+        height: 34px;
+        font-size: 12px;
+    }
+    /*Fim da Data de registro, data de liberação, urgência solicitada e pedidos seguidos*/
+    
+    /*Botão que abre e fechas os filtros*/
+    .env_seta_abre_fecha_buscador_op_busca{
+        /*float: left;*/
+        width: 16%;
+        margin-left: 41.4%;
+    }
+    /*Fim do botão que abre e fechas os filtros*/
+    
+    /*Fim do buscador e opções de Busca*/
+
+    .env_botoes_resultados{
+        display: none !important;
+    }
+
+    .tt_resultados_customizado{
+        font: 14px 'Avenir-book';
+        height: 36px;
+    }
+
+    .tt_resultados_customizado span{height: 36px; line-height: 36px;}
+    
+    .tt_resultados_customizado span img{padding-top: 7px;}
+
+    .checkbox_tt_resulado{display: none;}
+    .tt_paciente_resultado{width: 86%;}
+    .tt_dtRegistro_resultado{display: none;}
+    .tt_dtLiberacao_resultado{display: none;}
+    .tt_referencia_resultado{display: none;}
+    .tt_pedido_nous_resultado{display: none;}
+    .tt_status_resultado{display: none;}
+    .tt_opcoes_resultado{display: none;}
+    /*.tt_ver_mais{display: none;}*/
+
+    .tt_ver_mais{display: block; width: 13.3% !important;}
+    .tt_ver_mais span{border-right: 1px solid #bfbfc0; margin-top: 1px;}
+
+    .linha_resultado{
+        height: 34px;
+    }
+
+    .pacientes_resultados{
+        font: 9px 'Avenir-book'; 
+        height: 34px;
+    }
+
+    .env_checkbox{display: none;}
+    .pacientes_resultados{width: 86%;}
+    .dt_registro_resultados{display: none;}
+    .dt_liberacao_resultados{display: none;}
+    .referencias_resultados{display: none;}
+    .pedido_nous{display: none;}
+    .status_resultados{display: none;}
+    .opcoes_resultados{display: none;}
+    .ver_restante_resultado{
+        display: block;
+        width: 14%; 
+    }
+    
+    .ver_restante_resultado img{width: 16px; padding: 9px  7px  7px  7px!important;}
+
+    .pacientes_resultados span{
+        height: 34px;
+        line-height: 34px;
+    }
+    /*Fim da linha de resultado*/
+    
+    .conteudo_opcoes_resultados{display: none !important;}
+
+    /*Cotinuação da linha conteudo responsivo*/
+     .complemento_resultado_responsivos p{
+        font: 11px 'Avenir-book';
+        width: 90%;
+    }
+    
+    .p_data_registro_complemento,
+    .p_data_liberacao_complemento,
+    .p_referencia_complemento,
+    .p_pedido_nous_complemento,
+    .p_status_complemento{display: block;}
+    
+    .pulo_linha_txt_complemento{display: block;}
+
+    .env_resultado_paciente p{
+        font: 10px 'Avenir-book';
+    }
+
+    .NEP{
+        font: 11px 'Avenir-book';
+       
+    }
+
+    .RsEx,
+    .DtEn,
+    .RsIN,
+    .RsIC{
+        width: 56%;
+        font-size: 12px;
+    }
+
+    .STt,
+    .STtIN,
+    .STtIC{
+        font-size: 12px;
+        width: 40%;
+    }
+    /* Fim Resultados de pacientes em tela */
+
+    .telaoscura{display: none !important;}
+
+    .env_texto_resultados_vazio{
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .env_texto_resultados_vazio p{
+        float: left;
+        width: 95%;
+        padding:10px;
+        font: 12px 'Avenir-book';
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+
+    .mostrar_mais_resultados{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mostrar_mais_resultados span{
+        font: 12px 'Avenir-book';
+    }
+    /*********************************************************
+    FIM DA PÁGINA DE RESULTADOS
+    *********************************************************/
+
+     /*********************************************************
+    EXAME
+    *********************************************************/
+    .env_botoes_abas_fixo,
+    .env_tabela_amostras_alternativas,
+    .env_detalhes_genes{display: none;}
+
+    .tc{display: none;}
+    .pl{display: block; width: 100%; height: 7px;}
+
+    .tt_codigo_exame{
+        font-size: 12px;
+    }
+
+    .tt_nome_exame{
+        font-size: 14px;
+    }
+
+    .linha_detalhes_exames{
+        font-size: 12px;
+        margin-top: 7px;
+        text-align: inherit;
+    }
+
+    /*Responsivo*/
+    .empurra_detalhes_exames_responsivo{
+		display: block;
+        margin-top: 60px;
+    }
+
+    .env_icone_abas_responsivo{
+        display: block;
+    }
+
+    .env_abas_responsivo a{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_botao_detalhes_genes,
+    .env_botao_detalhes_links{
+        display: block;
+        margin-top: 12px;
+        height: 30px;
+    }
+
+    .env_botao_amostrar_alternativas{display: none !important;}
+
+    .botao_amostra_alternativa,
+    .botao_detalhes_genes,
+    .botao_detalhes_links{
+        width: 190px;
+        height: 30px;
+    }
+
+    .img_seta_amostrar_alternativa,
+    .img_seta_detalhes_genes,
+    .img_seta_detalhes_links{
+        width: 13px; 
+        margin-top: 12px;
+    }
+
+    .botao_amostra_alternativa span,
+    .botao_detalhes_genes span,
+    .botao_detalhes_links span{
+        font: 12px 'Avenir-book';
+    }
+
+    #env_todos_env_responsivos{display: block;}
+
+    .amostra_alternativa_responsivo p,
+    .detalhes_genes_responsivo p,
+    .links_vinculados_exame_responsivo p,
+    .links_vinculados_exame_responsivo h1{
+        font: 12px 'Avenir-book';
+        margin-top: 7px;
+    }
+
+    .detalhes_genes_responsivo p:first-child,
+    .amostra_alternativa_responsivo p:first-child{margin-top: 20px;}
+
+    .detalhes_genes_responsivo p:last-child,
+    .amostra_alternativa_responsivo p:last-child{margin-bottom: 20px;}
+
+
+    .links_vinculados_exame_responsivo p{margin-top: 11px; font-size: 10px;}
+    .links_vinculados_exame_responsivo p span{font-size: 12px !important;}
+
+    .links_vinculados_exame_responsivo p:last-child{margin-bottom: 11px;}
+
+     .img_liks_ex_res{
+        float: left;
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .riscos_destalhes_genetica_responsivo{
+        margin-top: 15px;
+    }
+    /*Fim do Responsivo*/
+
+
+    /* Modal dos valores de referencia*/
+
+    /*.modal-janela-vl-referenci{display: block;}*/
+
+    .modal_vl_referencia{
+        margin-top: 40px;
+        width: 90%;
+    }
+
+
+    .header_modal_vl_referencia{
+        height: 35px;
+    }
+
+    .header_modal_vl_referencia h1{
+        width: 80%;
+        margin-top: 8px;
+        margin-left: 10px;
+        font: 17px 'Avenir-book';
+    }
+
+    .header_modal_vl_referencia img{
+        margin-top: 12px;
+        margin-right: 15px;
+    }
+
+    .cont_vl_referencia{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+    }
+
+    .cont_vl_referencia p{
+        font-size: 12px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    /* Fim do modal dos valores de referencia*/
+    /*********************************************************
+    FIM DO EXAME
+    *********************************************************/
+    
+    /*********************************************************
+    ALTERAR SENHHA
+    ********************************************************/
+    .tt_alterar_senha{
+        margin-top: 60px;
+        font-size: 16px;
+    }
+
+    .form_alterar_senha{
+        width: 97%;
+        margin-left: 1.5%;
+    }
+
+    .form_alterar_senha label{
+        width: 94%;
+        margin-left: 3%;
+    }
+
+    .form_alterar_senha label:first-child{margin-top: 30px;}
+
+    .form_alterar_senha label span{
+        font: 12px 'Avenir-book';
+    }
+
+    .form_alterar_senha input[type="text"],
+    .form_alterar_senha input[type="password"]{
+        font-size: 12px;
+    }
+
+    .form_alterar_senha input[type="submit"]{
+        height: 30px;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+
+    .mensagem_sucesso_alterarsenha,
+    .mensagem_falha_alterarsenha{
+        font: 12px 'Avenir-book';
+    }
+
+    .msg_erros_alterar_senha{
+        color: #ff3a3b !important;
+        font: 10px 'Avenir-book' !important;
+    }
+    /*********************************************************
+    FIM ALTERAR SENHHA
+    ********************************************************/
+
+    /*********************************************************
+    SEM JAVASCRIPT
+    ********************************************************/
+    .env_msg_noJavaScript{
+        font: 12px 'Avenir-book';
+    }
+    /*********************************************************
+    FIM SEM JAVASCRIPT
+    ********************************************************/
+
+    /*********************************************************
+    ATUALIZAR NAVEGADOR
+    ********************************************************/
+    .env_msg_atualizar_navegador{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_navegadores{
+        width: 84%; 
+    }
+
+    .linha_navegador{
+        margin-top: 20px;
+    }
+
+    .linha_navegador:last-child{margin-bottom: 10px;}
+
+    .linha_navegador img{
+        width: 30px;
+        padding-left: 20%;
+    }
+    /*********************************************************
+    ATUALIZAR NAVEGADOR
+    ********************************************************/
+
+    /*********************************************************
+    MODALS DE MENSAGENS
+    ********************************************************/
+    .modal_mensagens{
+        margin-top: 45px;
+        width: 85%;
+    }
+
+
+    .header_modal_mensagens{
+        height: 35px;
+    }
+
+    .header_modal_mensagens h1{
+        width: 75%;
+        margin-top: 9px;
+        font: 16px 'Avenir-book';
+    }
+
+    .header_modal_mensagens img{
+        margin-top: 12px;
+    }
+
+    .cont_modal_mensagens p{
+        font: 12px 'Avenir-book';
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+    .cont_modal_mensagens p:last-child{margin-bottom: 4%;}
+    /*********************************************************
+    FIM DOS MODALS DE MENSAGENS
+    ********************************************************/
+}
+
+/*SMARTPHONE - PAISAGEM (ENTRE 321PX E 480PX)*/
+@media all and (min-width: 321px) and (max-width: 480px){
+    .tela_ajax img{width: 20%;}
+    /*********************************************************
+    TELA DE LOGIN
+    *********************************************************/
+    .logotipo{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .idiomas_links{
+        width: 100%;
+    }
+
+    .logotipo img{
+        float: none;
+        width: 300px;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+    
+    .env_idiomas {
+      margin: 0 auto;
+      width: 155px;
+    }
+
+    .idiomas_login{
+        float:right;
+        width: 100%;
+        height: 40px;
+        margin-top: 3%;
+        margin-right: 0;
+    }
+    
+    .cc_idioma_login {
+        width: 28px;
+        height: 28px;
+        margin-left: 4px;
+        color: #003866;
+        font: 12px 'Avenir-book';
+        border: 1px solid #003866;
+        border-radius: 25px;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 100px;
+    }
+
+    .links_login{
+        margin-top: 0%;
+        font-size: 12px;
+    }
+
+    .env_link{
+        float: none;
+        margin:0 auto;
+        width: 320px;
+    }
+    
+    .env_form_apresentacao_login{
+        margin-top: 4%;
+        margin-bottom: 4%;
+        width: 310px;
+    }
+
+    .env_form_apresentacao_login p{
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font: 12px 'Avenir-book';
+    }
+
+    .env_form_login{
+        width: 308px;
+    }
+
+    .form_login{
+        float: left;
+        width: 100%;
+    }
+
+    .form_login h1{
+        margin-top: 3%;
+        font: 20px 'Avenir-book';
+        font-weight: bold;
+    }
+
+    .form_login input[type="email"],
+    .form_login input[type="password"]{
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .form_login a{
+        margin-top: 6%;
+        font: 12px 'Avenir-book';
+    }
+
+    .form_login input[type="submit"]{
+        font-size: 12px;
+    }
+
+    .env_rodape_login{
+        height: 30px;
+    }
+
+    .env_rodape_login p{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_rodape_login p span{
+        display: none;
+    }
+
+    .form_login span{
+        float: left;
+        width: 100%;
+        font: 12px 'Avenir-book';
+        color: #eb5439;
+        margin-top: 3px;
+        text-align: center;
+    }
+
+    #dd_incorretos_login{
+        width: 90%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font: 12px 'Avenir-book';
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    /*********************************************************
+    FIM DA TELA DE LOGIN
+    *********************************************************/  
+
+    /*********************************************************
+    HEADER RESPONSIVO
+    *********************************************************/
+    .env_header_geral{
+        display: none;
+    }
+
+    .env_header_responsivo{
+        display: block;
+    }
+
+    .logotipo_responsivo a img{
+        margin-top: 10.5px;
+    }
+
+    .opcoes_responsivo a,
+    .usuario_responsivo a,
+    .menu_responsivo a{
+        height: 45px;
+    }
+
+    .opcoes_responsivo a img,
+    .usuario_responsivo a img,
+    .menu_responsivo a img{
+        width: 20px;
+        margin-top: 13px;
+        margin-left: 12.5px;
+        margin-right: 12.5px;
+    }
+
+    .menu_responsivo a img{width: 30px;}
+
+    .cont_menu_responsivo a span,
+    .cont_usuario_responsivo a span,
+    .env_links_responsivos a span{
+        font: 16px 'Avenir-book';
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
+    }
+    /*********************************************************
+    FIM DO HEADER RESPONSIVO
+    *********************************************************/
+
+    /*********************************************************
+    CATALOGO
+    *********************************************************/
+   /*Caixa para conteudos, buscadores dinámicos e responsivos*/
+    .cx_conteudo_responsivo{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0%;
+        border: 0px solid #fff;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+        background: #fff;
+    }
+
+    .tt_cx_conteudo_responsivo{
+        width: 160px;
+        margin-left: 0%;
+    }
+
+    .tt_cx_conteudo_responsivo span{
+        font: 14px 'Avenir-book';
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
+    /**************************************/
+
+    .env_buscador_catalogo{
+        margin-top: 70px;
+        overflow: hidden;   
+    }
+
+    .env_lupa_buscador{float: left; display: none; width: 100%; }
+    .env_input_buscador{float: left; width: 100%;}
+    .env_flecha_abre_fecha{float: left; width: 100%; text-align: center;}
+    
+    .env_input_buscador img{
+        display: block;
+        width: 13px;
+        margin-top: 44px;
+    }
+
+    .buscador{
+        height: 112px;
+    }
+
+    .lupa_catalogo{
+        float: left;
+        width: 18px;
+        margin-top: 42px;
+        margin-left: 12px;
+    }
+
+    .input_buscador_catalogo{
+        width: 90.5%;
+        height: 30px;
+        margin-left: 1%;
+        padding-left: 6%;
+    }
+
+    .flecha_abre_fecha_catalogo{
+        float: none;
+        width: 8px;
+        margin-top: 15px;
+    }
+
+    .env_duplas_filtro{
+        float: left;
+        width: 100%;
+        margin-top: 3.3% !important;
+    }
+
+    .pulo_linha_lb_filtro_catalogo{
+        display: block;
+    }
+
+    .filtro_catalogo label span{
+        font: 14px 'Avenir-book';
+
+    }
+
+    .separador_busca_catalogo{
+        margin-top: 3.3%;
+    }
+
+    .form_buscador_catalogo input[type="submit"]{
+        font-size: 14px;
+    }
+
+    .linha_catalogo_vazio{
+        margin-top: 7%;
+    }
+
+    .resultados_busca_catalogo p{
+        font: 12px 'Avenir-book';
+        margin-left: 2%;
+    }
+     .resultados_busca_catalogo p span{
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .env_tt_resultados_catalogo{
+        /*width: 100%;*/
+        font-size: 15px;
+    }
+
+    .env_tt_resultados_catalogo span{
+        width: 98.3%;
+    }
+
+    .linha_resultado_catalogo{
+        height: auto !important;
+        font: 12px 'Avenir-book';  
+    }
+
+    .nome_exame_catalogo{
+        width: 100%;
+        height: auto !important;
+    }
+
+    .nome_exame_catalogo span{
+        width: 97%;
+        height: auto !important;
+        line-height: normal !important;
+        margin-left: 0px;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-top: 13px;
+        padding-bottom: 12px;
+    }
+
+    .icone_add{
+        display: none;
+    }
+
+    .env_filtro_flutuante_lateral{display: none;}
+    /*********************************************************
+    FIM DO CATALOGO
+    *********************************************************/
+
+    /*********************************************************
+    LOGOTIPO CINZA
+    *********************************************************/
+    .env_logo_cinza_2 img, 
+    .env_logo_cinza img{
+        width: 80px;
+    }
+
+
+    .env_logo_cinza_2{margin-top: 15px;}
+    /*********************************************************
+    FIM DO LOGOTIPO CINZA
+    *********************************************************/
+
+    /*********************************************************
+    RODAPE
+    *********************************************************/
+    .env_rodape_geral p{
+        font: 14px 'Avenir-book';
+    }
+
+    .env_rodape_geral p span{display: none;}
+    /*********************************************************
+    FIM DO RODAPE
+    *********************************************************/
+
+    /*********************************************************
+    PÁGINA DE RESULTADOS
+    *********************************************************/
+     /*Buscador e opções de Busca*/
+    .env_cx_filtro_opcoes{
+        width: 98%;
+        margin-left: 1%;
+        margin-top: 70px;
+    }
+
+    .filtro_opcoes_busca{
+        height: 44px;
+    }
+
+    .lupa_azul_filtro_busca_pg_resultados,
+    .lupa_branca_filtro_busca_pg_resultados{
+        width: 15px;
+        padding: 6px;
+        margin-top: 10px;
+        margin-left: 1.5%;
+        display: none;
+    }
+
+   .lupa_branca_filtro_busca_pg_resultados{
+        display: block; 
+        background: transparent;
+    }
+
+    .filtro_opcoes_busca h3{
+        display: none;
+    }
+    
+    .filtro_opcoes_busca h3 span{display: none;}
+
+    .form_filtro_busca{
+        width: 85%;
+        height: 32px;
+        margin-top: 8px;
+        margin-left: 1.5%;
+
+    }
+
+    .form_filtro_busca select{
+        height: 32px;
+        font: 14px 'Avenir-book' !important;
+    }
+
+    .texto_busca_resultados{
+        width: 94%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 14px;
+    }
+
+    .pula_linha_filtro_op_busca{display: none;}    
+
+    .env_opcoes_busca{
+        width: 99.2%;
+    }
+
+     .form_opcao_busca_nome,
+    .form_opcao_busca_referencia_cliente,
+    .form_opcao_busca_nhc{width: 100%; margin-top: 25px; margin-bottom: 25px; margin-left: 0%;}    
+
+    .form_opcao_busca_referencia_nous{width: 90%; margin-left: 5%; margin-top: 30px; margin-bottom: 30px;}
+
+    .form_opcao_busca_exame{width: 98%; margin-top: 25px; margin-bottom: 25px; margin-left: 1%;}
+
+    .form_opcao_busca_data_registro,
+    .form_opcao_busca_data_liberacao,
+    .form_opcao_busca_urgencia_solicitada,
+    .form_opcao_busca_pedidos_seguidos{
+        width: 95%; 
+        margin-top: 25px;
+        margin-left: 2.5%;
+        margin-bottom: 25px;
+    }
+
+    .env_input_submit{margin-top: 15px;}
+
+    .env_input_submit input[type="submit"]{
+        font-size: 14px;
+    }
+
+   /*Por nome, referência do paciente e NHC*/
+    .nome_op_nomePaciente,
+    .referencia_op_ReferenciaPaciente,
+    .tipoBusca_op_nomePaciente,
+    .tipoBusca_op_referenciaCliente,
+    .tipoBusca_op_nhc,
+    .referencia_op_nhc{
+        float: left;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+
+    .dtInicial_op_nomePaciente,
+    .dtFinal_op_nomePaciente,
+    .dtInicial_op_referenciaCliente,
+    .dtFinal_op_referenciaCliente,
+    .dtInicial_op_nhc,
+    .dtFinal_op_nhc{
+        float: left;
+        width: 46.2%;
+        margin-left: 2.5%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nome_op_nomePaciente label,
+    .referencia_op_ReferenciaPaciente label,
+    .referencia_op_nhc label,
+    .tipoBusca_op_nomePaciente label,
+    .tipoBusca_op_referenciaCliente label,
+    .tipoBusca_op_nhc label,
+    .dtInicial_op_nomePaciente label,
+    .dtFinal_op_nomePaciente label,
+    .dtInicial_op_referenciaCliente label,
+    .dtFinal_op_referenciaCliente label,
+    .dtInicial_op_nhc label,
+    .dtFinal_op_nhc label{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    /*.dtFinal_op_referenciaCliente label{margin-left: 0%;}*/
+
+    .nome_op_nomePaciente label span,
+    .referencia_op_ReferenciaPaciente label span,
+    .tipoBusca_op_nomePaciente label span,
+    .tipoBusca_op_referenciaCliente label span,
+    .tipoBusca_op_nhc label span,
+    .dtInicial_op_nomePaciente label span,
+    .dtFinal_op_nomePaciente label span,
+    .dtInicial_op_referenciaCliente label span,
+    .dtFinal_op_referenciaCliente label span,
+    .dtInicial_op_nhc label span,
+    .dtFinal_op_nhc label span{
+        font: 14px 'Avenir-book';
+    }
+
+    .nome_op_nomePaciente label input[type="text"],
+    .referencia_op_ReferenciaPaciente label input[type="text"],
+    .referencia_op_nhc label input[type="text"]{width: 96.1%;}
+
+    .dtInicial_op_nomePaciente label input[type="text"],
+    .dtFinal_op_nomePaciente label input[type="text"],
+    .dtInicial_op_referenciaCliente label input[type="text"],
+    .dtFinal_op_referenciaCliente label input[type="text"]{width: 65.8%;}
+
+    .tipoBusca_op_nomePaciente label select,
+    .tipoBusca_op_referenciaCliente label select,
+    .tipoBusca_op_nhc label select{width: 100%; height: 34px;}
+    /*Fim da estilização por nome, referência do paciente e NHC*/
+
+    /*Referência Noûs*/
+    .pedidoNous_op_pedidoNous{
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .pedidoNous_op_pedidoNous label span{
+        font-size: 14px;
+    }
+
+    .env_btn_submit_unificados{
+        width: 100%;
+        text-align: center;
+    }
+
+    .env_btn_submit_unificados input[type="submit"]{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    /*Fim da referência Noûs*/
+
+    /*Exame*/
+    .env_linha_op_exames label span{
+        font-size: 14px;
+    }
+
+    .env_linha_op_exames label input[type="text"]{
+         width: 97.4%;
+        float: left;
+    }
+
+    .dtInicial_op_exame,
+    .dtFinal_op_exame{
+        width: 50%;
+        margin-left: 0%;
+    }
+
+    .tipoBusca_op_exame{
+        width: 100%;
+        margin-top: 5px;
+    }
+    
+    .dtInicial_op_exame label span,
+    .dtFinal_op_exame label span,
+    .tipoBusca_op_exame label span{font-size: 14px;}
+
+    .dtInicial_op_exame label input[type="text"],
+    .dtFinal_op_exame label input[type="text"]{
+        width: 65%;
+        font-size: 12px;
+    }
+
+
+    .tipoBusca_op_exame label select{
+        width: 100%;
+        height: 32px;
+        font-size: 12px;
+        height: 34px;
+    }
+    /*Fim do exame*/
+
+    /*Data de registro, data de liberação, urgência solicitada e pedidos seguidos*/
+    .dtInicial_op_dtRegistro,
+    .dtFinal_op_dtRegistro,
+    .dtInicial_op_dtLiberacao,
+    .dtFinal_op_dtLiberacao,
+    .dtInicial_op_urgenciaSolicitada,
+    .dtFinal_op_urgenciaSolicitada,
+    .dtInicial_op_pedidosSeguidos,
+    .dtFinal_op_pedidosSeguidos{
+        float: left;
+        width: 50%;
+    }
+
+    .tipoBusca_op_dtRegistro,
+    .tipoBusca_op_dtLiberacao,
+    .tipoBusca_op_urgenciaSolicitada,
+    .tipoBusca_op_pedidosSeguidos{
+        float: left;
+        width: 100%;
+    }
+
+    .dtInicial_op_dtRegistro label span,
+    .dtFinal_op_dtRegistro label span,
+    .dtInicial_op_dtLiberacao label span,
+    .dtFinal_op_dtLiberacao label span,
+    .dtInicial_op_urgenciaSolicitada label span,
+    .dtFinal_op_urgenciaSolicitada label span,
+    .dtInicial_op_pedidosSeguidos label span,
+    .dtFinal_op_pedidosSeguidos label span{
+        font-size: 14px;
+        float: left;
+        width: 100%;
+    }
+
+    .tipoBusca_op_dtRegistro label span,
+    .tipoBusca_op_dtLiberacao label span,
+    .tipoBusca_op_urgenciaSolicitada label span,
+    .tipoBusca_op_pedidosSeguidos label span{
+        font-size: 14px;
+    }
+
+
+    .dtInicial_op_dtRegistro label input[type="text"],
+    .dtFinal_op_dtRegistro label input[type="text"],
+    .dtInicial_op_dtLiberacao label input[type="text"],
+    .dtFinal_op_dtLiberacao label input[type="text"],
+    .dtInicial_op_urgenciaSolicitada label input[type="text"],
+    .dtFinal_op_urgenciaSolicitada label input[type="text"],
+    .dtInicial_op_pedidosSeguidos label input[type="text"],
+    .dtFinal_op_pedidosSeguidos label input[type="text"]{
+       font-size: 12px;
+    }
+
+    .tipoBusca_op_dtRegistro label select,
+    .tipoBusca_op_dtLiberacao label select,
+    .tipoBusca_op_urgenciaSolicitada label select,
+    .tipoBusca_op_pedidosSeguidos label select{
+        height: 34px;
+        font-size: 12px;
+    }
+    /*Fim da Data de registro, data de liberação, urgência solicitada e pedidos seguidos*/
+    
+    /*Botão que abre e fechas os filtros*/
+    .env_seta_abre_fecha_buscador_op_busca{
+        width: 12%;
+        margin-left: 43%;
+    }
+    /*Fim do botão que abre e fechas os filtros*/
+    
+    /*Fim do buscador e opções de Busca*/
+
+    .env_botoes_resultados{
+        display: none !important;
+    }
+
+    .checkbox_tt_resulado{display: none;}
+    .tt_paciente_resultado{width: 90%;}
+    .tt_dtRegistro_resultado{display: none;}
+    .tt_dtLiberacao_resultado{display: none;}
+    .tt_referencia_resultado{display: none;}
+    .tt_pedido_nous_resultado{display: none;}
+    .tt_status_resultado{display: none;}
+    .tt_opcoes_resultado{display: none;}
+
+    .tt_ver_mais{display: block; width: 9.6% !important;}
+    .tt_ver_mais span{border-right: 1px solid #bfbfc0; margin-top: 1px;}
+
+    .pacientes_resultados{
+        font: 13px 'Avenir-book'; 
+    }
+
+    .env_checkbox{display: none;}
+    .pacientes_resultados{width: 90%;}
+    .dt_registro_resultados{display: none;}
+    .dt_liberacao_resultados{display: none;}
+    .referencias_resultados{display: none;}
+    .pedido_nous{display: none;}
+    .status_resultados{display: none;}
+    .opcoes_resultados{display: none;}
+    .ver_restante_resultado{
+        display: block;
+        width: 10%; 
+    }
+    
+    .ver_restante_resultado img{padding: 9px  5px  9px  5px!important;}
+    
+    .conteudo_opcoes_resultados{display: none !important;}
+
+    .complemento_resultado_responsivos p{
+    font: 13px 'Avenir-book';
+    }
+
+    .p_data_registro_complemento,
+    .p_data_liberacao_complemento,
+    .p_referencia_complemento,
+    .p_pedido_nous_complemento,
+    .p_status_complemento{display: block;}
+    
+    .pulo_linha_txt_complemento{display: block;}
+
+    .env_resultado_paciente p{
+        font: 13px 'Avenir-book';
+    }
+
+    .NEP{
+        font: 14px 'Avenir-book';
+       
+    }
+    
+    .RsEx,
+    .DtEn,
+    .RsIN,
+    .RsIC{
+        width: 56%;
+        font-size: 12px;
+    }
+
+    .STt,
+    .STtIN,
+    .STtIC{
+        font-size: 12px;
+        width: 40%;
+    }
+    /* Fim Resultados de pacientes em tela */
+
+    .telaoscura{display: none !important;}
+
+    .env_texto_resultados_vazio{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .env_texto_resultados_vazio p{
+        float: left;
+        width: 90%;
+        padding:15px;
+        font: 12px 'Avenir-book';
+    }
+
+    .mostrar_mais_resultados{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .mostrar_mais_resultados span{
+        font: 14px 'Avenir-book';
+    }
+    /*********************************************************
+    FIM DA PÁGINA DE RESULTADOS
+    *********************************************************/
+
+    /*********************************************************
+    EXAME
+    *********************************************************/
+    .env_botoes_abas_fixo,
+    .env_tabela_amostras_alternativas,
+    .env_detalhes_genes{display: none;}
+
+    .tc{display: none;}
+    .pl{display: block; width: 100%; height: 5px;}
+
+    .tt_codigo_exame{
+        font-size: 12px;
+    }
+
+    .tt_nome_exame{
+        font-size: 14px;
+    }
+
+    .linha_detalhes_exames{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    /*Responsivo*/
+    .empurra_detalhes_exames_responsivo{
+		display: block;
+        margin-top: 70px;
+    }
+
+    .env_icone_abas_responsivo{
+        display: block;    
+    }
+
+    .env_abas_responsivo a{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_botao_detalhes_genes,
+    .env_botao_detalhes_links{
+        display: block;
+        margin-top: 12px;
+        height: 30px;
+    }
+
+    .env_botao_amostrar_alternativas{display: none !important;}
+
+    .botao_amostra_alternativa,
+    .botao_detalhes_genes,
+    .botao_detalhes_links{
+        width: 190px;
+        height: 30px;
+    }
+
+    .img_seta_amostrar_alternativa,
+    .img_seta_detalhes_genes,
+    .img_seta_detalhes_links{
+        width: 13px; 
+        margin-top: 12px;
+    }
+
+    .botao_amostra_alternativa span,
+    .botao_detalhes_genes span,
+    .botao_detalhes_links span{
+        font: 12px 'Avenir-book';
+    }
+
+    #env_todos_env_responsivos{display: block;}
+
+    .amostra_alternativa_responsivo p,
+    .detalhes_genes_responsivo p,
+    .links_vinculados_exame_responsivo p,
+    .links_vinculados_exame_responsivo h1{
+        font: 12px 'Avenir-book';
+        margin-top: 5px;
+    }
+
+    .detalhes_genes_responsivo p:first-child,
+    .amostra_alternativa_responsivo p:first-child{margin-top: 20px;}
+
+    .detalhes_genes_responsivo p:last-child,
+    .amostra_alternativa_responsivo p:last-child{margin-bottom: 20px;}
+
+    .links_vinculados_exame_responsivo p{margin-top: 11px; font-size: 10px;}
+    .links_vinculados_exame_responsivo p span{font-size: 12px !important;}
+
+    .links_vinculados_exame_responsivo p:last-child{margin-bottom: 11px;}
+
+    .img_liks_ex_res{
+        float: left;
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .riscos_destalhes_genetica_responsivo{
+        margin-top: 15px;
+    }
+    /*Fim do Responsivo*/
+
+    /* Modal dos valores de referencia*/
+    /*.modal-janela-vl-referenci{display: block;}*/
+
+    .modal_vl_referencia{
+        margin-top: 40px;
+        width: 90%;
+    }
+
+
+    .header_modal_vl_referencia{
+        height: 35px;
+    }
+
+    .header_modal_vl_referencia h1{
+        width: 80%;
+        margin-top: 8px;
+        margin-left: 15px;
+        font: 17px 'Avenir-book';
+    }
+
+    .header_modal_vl_referencia img{
+        margin-top: 12px;
+        margin-right: 15px;
+    }
+
+    .cont_vl_referencia{
+        float: left;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px; 
+    }
+
+    .cont_vl_referencia p{
+        font-size: 12px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    /* Fim do modal dos valores de referencia*/
+    /*********************************************************
+    FIM DO EXAME
+    *********************************************************/
+
+    /*********************************************************
+    ALTERAR SENHHA
+    ********************************************************/
+    .tt_alterar_senha{
+        margin-top: 75px;
+        font-size: 22px;
+    }
+
+    .form_alterar_senha{
+        float: left;
+        width: 95%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 2.5%;
+        background: #fff;
+    }
+
+    .form_alterar_senha label{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .form_alterar_senha label:first-child{margin-top: 30px;}
+
+    .form_alterar_senha label span{
+        font: 14px 'Avenir-book';
+    }
+
+    .form_alterar_senha input[type="text"],
+    .form_alterar_senha input[type="password"]{
+        font-size: 14px;
+    }
+
+    .form_alterar_senha input[type="submit"]{
+        height: 34px;
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+
+    .mensagem_sucesso_alterarsenha,
+    .mensagem_falha_alterarsenha{
+        font: 14px 'Avenir-book';
+    }
+
+    .msg_erros_alterar_senha{
+        color: #ff3a3b !important;
+        font: 10px 'Avenir-book' !important;
+    }
+    /*********************************************************
+    FIM ALTERAR SENHHA
+    ********************************************************/
+
+    /*********************************************************
+    SEM JAVASCRIPT
+    ********************************************************/
+    .env_msg_noJavaScript{
+        font-size: 12px !important;
+    }
+    /*********************************************************
+    FIM SEM JAVASCRIPT
+    ********************************************************/
+
+
+    /*********************************************************
+    ATUALIZAR NAVEGADOR
+    ********************************************************/
+    .env_msg_atualizar_navegador{
+        font: 12px 'Avenir-book';
+    }
+
+    .env_navegadores{
+        width: 84%; 
+    }
+
+    .linha_navegador:last-child{margin-bottom: 10px;}
+
+    .linha_navegador img{
+        width: 35px;
+        padding-left: 20%;
+    }
+    /*********************************************************
+    ATUALIZAR NAVEGADOR
+    ********************************************************/
+
+    /*********************************************************
+    MODALS DE MENSAGENS
+    ********************************************************/
+    .modal_mensagens{
+        margin-top: 45px;
+        width: 85%;
+    }
+
+
+    .header_modal_mensagens{
+        height: 35px;
+    }
+
+    .header_modal_mensagens h1{
+        margin-top: 8px;
+        font: 16px 'Avenir-book';
+    }
+
+    .header_modal_mensagens img{
+        margin-top: 12px;
+    }
+
+    .cont_modal_mensagens p{
+        font: 12px 'Avenir-book';
+    }
+    /*********************************************************
+    FIM DOS MODALS DE MENSAGENS
+    ********************************************************/
+}
+
+
+

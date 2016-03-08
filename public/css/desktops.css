@@ -1,0 +1,268 @@
+/*TABLET - PAISAGEM  OU MONITORES ANTIGOS(ENTRE 769PX E 960PX)*/
+@media all and (min-width: 961px) and (max-width: 1200px){
+    
+	/*********************************************************
+	TELA DE LOGIN
+	*********************************************************/
+	.logotipo img{
+	    width: 380px;
+	}
+
+	.idiomas_login{
+	    margin-top: 9%;
+	}    
+	/*********************************************************
+	FIM DA TELA DE LOGIN
+	*********************************************************/    
+	
+	/*********************************************************
+	HEADER RESPONSIVO
+	*********************************************************/
+	.env_header_geral{
+		display: none;
+	}
+
+	.env_header_responsivo{
+		display: block;
+	}
+	/*********************************************************
+	FIM DO HEADER RESPONSIVO
+	*********************************************************/
+
+	/*********************************************************
+	CATALOGO
+	*********************************************************/
+	.env_buscador_catalogo{
+		margin-top: 100px;
+		overflow: hidden;	
+	}
+	
+	.input_buscador_catalogo{
+	}
+
+	.flecha_abre_fecha_catalogo{
+		margin-left: 3%;
+	}
+
+	.env_tt_resultados_catalogo span{
+		width: 98.3%;
+	}
+
+	.linha_resultado_catalogo{
+		height: auto !important;
+	}
+
+	.nome_exame_catalogo{
+		width: 100%;
+		height: auto !important;
+	}
+
+	.nome_exame_catalogo span{
+		width: 99%;
+		height: auto !important;
+		margin-left: 0px;
+		padding-left: 0.5%;
+		padding-right: 0.25%;
+		padding-top: 9px;
+		padding-bottom: 4px;
+	}
+
+	.icone_add{
+		display: none;
+	}
+	
+	.env_filtro_flutuante_lateral{display: none;}
+	/*********************************************************
+	FIM DO CATALOGO
+	*********************************************************/
+
+	/*********************************************************
+	PAGINA DE RESULTADOS
+	*********************************************************/
+	/*Buscador e opções de Busca*/
+	.env_cx_filtro_opcoes{
+		width: 85%;
+		margin-left: 7.5%;
+		margin-top: 107px;
+		/*float: left;
+		margin-top: 135px;*/
+
+	}
+
+	.texto_busca_resultados{
+		
+		float: left;
+		width: 80%;
+		margin-top: 60px;
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align: center;
+		font: 16px 'Avenir-book';
+		color: #5b5a57;
+	}
+
+	.form_opcao_busca_referencia_nous{width: 45%; margin-left: 27.5%;}
+	/*Fim da Data de registro, data de liberação, urgência solicitada e pedidos seguidos*/
+	
+	/*Botão que abre e fechas os filtros*/
+	.env_seta_abre_fecha_buscador_op_busca{
+		width: 8%;
+		margin-left: 45.4%;
+	}
+	
+	/*Fim do botão que abre e fechas os filtros*/
+	
+	/*Fim do buscador e opções de Busca*/
+	
+	.telaoscura{display: none !important;}
+
+	.env_botoes_resultados{display: none !important;}
+
+	.checkbox_tt_resulado,
+	.env_checkbox,
+	.op_branco_resultados_fx{display: none;}
+
+	.tt_paciente_resultado{width: 28%;}
+	.tt_dtRegistro_resultado{width: 11%;}
+	.tt_dtLiberacao_resultado{width: 11.5%;}
+	.tt_referencia_resultado{width: 12%;}
+	.tt_pedido_nous_resultado{width: 12%;}
+	.tt_status_resultado{width: 13%;}
+	.tt_opcoes_resultado{width: 12.4%;}
+
+	.pacientes_resultados{width: 28%;}
+	.dt_registro_resultados{width: 11.5%;}
+	.dt_liberacao_resultados{width: 11%;}
+	.referencias_resultados{width: 12%;}
+	.pedido_nous{width: 12%;}
+	.status_resultados{width: 13%;}
+	.opcoes_resultados{width: 12.4%;}
+
+	.op_azul_resultados_fx,
+	.op_branco_resultados_fx{display: none;}
+
+	.conteudo_opcoes_resultados{display: none !important;}
+	
+
+	@media all and (min-width: 961px) and (max-width: 1100px){
+		.env_botoes_resultados{display: none;}
+
+		.checkbox_tt_resulado,
+		.env_checkbox,
+		.op_branco_resultados_fx{display: none;}
+
+		.tt_paciente_resultado{width: 32%;}
+		.tt_dtRegistro_resultado{width: 11.5%;}
+		.tt_dtLiberacao_resultado{width: 11.5%;}
+		.tt_referencia_resultado{width: 13.5%;}
+		.tt_pedido_nous_resultado{width: 13.5%;}
+		.tt_status_resultado{width: 13.9%;}
+		.tt_opcoes_resultado{display: none;}
+		.tt_ver_mais{display: block; width: 3.9% !important;}
+
+		.tt_ver_mais span{border-right: 1px solid #bfbfc0; margin-top: 1px;}
+
+		.pacientes_resultados{width: 32%;}
+		.dt_registro_resultados{width: 11.5%;}
+		.dt_liberacao_resultados{width: 11.5%;}
+		.referencias_resultados{width: 13.5%;}
+		.pedido_nous{width: 13.5%;}
+		.status_resultados{width: 13.9%;}
+		.opcoes_resultados{display: none;}
+		.ver_restante_resultado{
+			display: block;
+			float: left; 
+			width: 4%; 
+			text-align: center;
+		}
+		
+		.conteudo_opcoes_resultados{display: none !important;}
+
+		.ver_restante_resultado img{padding: 9px  11px  9px  11px!important;}
+		
+		.env_opcoes_responsivo{margin-top: 0px;	border-top: 0px;}
+
+		.NEP{font-size: 15px;}
+
+		.RsEx,
+		.DtEn,
+		.RsIN,
+		.RsIC{
+			width: 80%;
+			font-size: 15px;			
+		}
+
+		.STt,
+		.STtIN,
+		.STtIC{
+			font-size: 15px;
+			width: 16%;
+		}
+
+		.telaoscura{display: none !important;}
+	}	
+	/*********************************************************
+	FIM DA PAGINA DE RESULTADOS
+	*********************************************************/
+
+	/*********************************************************
+	EXAME
+	*********************************************************/
+	.env_botoes_abas_fixo,
+	.env_tabela_amostras_alternativas,
+	.env_detalhes_genes{display: none;}
+
+	
+	.env_icone_abas_responsivo,
+	.env_botao_detalhes_genes,
+	.env_botao_detalhes_links{
+		display: block;
+	}
+	
+	#env_todos_env_responsivos{display: block;}
+
+	.empurra_detalhes_exames_responsivo,
+	.env_botao_amostrar_alternativas{display: none !important;}
+	/*********************************************************
+	FIM DO EXAME
+	*********************************************************/
+
+	/*********************************************************
+	ALTERAR SENHHA
+	********************************************************/
+	.tt_alterar_senha{
+		margin-top: 100px;
+	}
+
+	.form_alterar_senha{
+		float: left;
+		width: 80%;
+		height: auto;
+		margin-top: 10px;
+		margin-left: 10%;
+		background: #fff;
+	}
+
+	.form_alterar_senha label{
+		width: 45%;
+		margin-left: 27.5%;
+	}
+
+	.form_alterar_senha label:first-child{margin-top: 40px;}
+
+	.form_alterar_senha input[type="submit"]{
+		margin-bottom: 40px;
+	}
+
+	/*********************************************************
+	FIM ALTERAR SENHHA
+	********************************************************/
+}
+
+@media all and (min-width: 1201px){
+
+	.complemento_resultado_responsivos{
+		display: none !important;
+	}
+   
+}

@@ -1,0 +1,304 @@
+/*FAZ O LAYOUT RESPONSIVO*/
+.layout-1{width:8.333333333333334%;float:left;}
+.layout-2{width:16.666666666666668%;float:left;}
+.layout-3{width:25%;float:left;}
+.layout-4{width:33.333333333333336%;float:left;}
+.layout-5{width:41.66666666666667%;float:left;}
+.layout-6{width:50%;float:left;}
+.layout-7{width:58.333333333333336%;float:left;}
+.layout-8{width:66.66666666666667%;float:left;}
+.layout-9{width:75%;float:left;}
+.layout-10{width:83.33333333333334%;float:left;}
+.layout-11{width:91.66666666666667%;float:left;}
+.layout-12{width:100%;float:left;}
+.row .layout-12{width:100%; clear:both;}
+
+
+html,
+body {
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	overflow: auto;
+	background: url('../img/fd_login.jpg');
+	background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	-o-background-size:100% 100%;
+	-khtml-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.env_tudo{
+	float: left;
+	width: 100%;
+	min-height:100%;
+	position:relative;
+	height:auto;
+    overflow:hidden;	
+}
+
+.conteudo_responsivo{
+	max-width: 1200px; 
+    margin:0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+	font: 16px 'Avenir-book';
+	color: #696969;
+	padding-left: 2%;
+	padding-right: 2%;
+	background: #fff;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border: 1px solid #bfbfc0; 
+}
+
+form input[type="submit"]{	
+	color: #fff;
+	font: 16px 'Avenir-book';
+	padding-left: 2%;
+	padding-right: 2%;
+	background: #017299;
+	border: 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+}
+
+form input[type="submit"]:hover{
+	background: #037ca6;
+	border: 1px solid #035875;
+}
+
+/*********************************************************
+TELA DE LOGIN
+*********************************************************/
+.logotipo{margin: 0;}
+
+.logotipo img{
+	float: left; 
+	width: 437px;
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+.idiomas_login{
+	float:right;
+	width: 320px;
+	height: 40px;
+	margin-top: 8%;
+	margin-right: 7%;
+	text-align: center;
+}
+
+.env_idiomas{
+	margin: 0 auto;
+	width: 148px;
+}
+
+.env_idiomas a{
+	float: left;
+	margin-left: 6px;
+}
+
+.env_idiomas a:first-child{
+	margin-left: 0%;
+}
+
+.cc_idioma_login{
+	width: 30px;
+	height: 30px;
+	color: #003866;
+	font: 14px 'Avenir-book';
+	border: 1px solid #003866;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+
+.cc_idioma_login span{
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+	text-align: center;
+}
+
+.cc_idioma_login:hover{
+	background: #003866;
+	color: #fff;
+}
+
+.links_login{
+	float: left;
+	width: 100%;
+	text-align: center;
+	font: 16px 'Avenir-Book';
+	color: #003866; 
+}
+
+.env_link{
+	float: right;
+	width: 320px;
+	margin-right: 8%;
+}
+
+.env_link a:hover{color: #0077ad;}
+
+.env_link span{
+	font-weight: bold;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.env_form_apresentacao_login{
+	margin: 0 auto;
+	margin-top: 7.5%;
+	margin-bottom: 5%;
+	overflow: hidden;
+	width: 400px;
+	height: auto;
+	background: #017299;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+.env_form_apresentacao_login p{
+	float: left;
+	width: 100%;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font: 16px 'Avenir-Book';
+	color: #fff;
+	text-align: center;
+}
+
+.env_form_login{
+	float: left;
+	width: 398px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	height: auto;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: url('../img/fd_geral.jpg');
+	background-repeat: repeat;
+}
+
+.form_login{
+	float: left;
+	width: 100%;
+
+}
+
+.form_login h1{
+	float: left; 
+	width: 100%;
+	margin: 0;
+	margin-top: 4%;
+	text-align: center;
+	font: 30px Avenir;
+	color: #003866;
+	font-weight: bold;
+}
+
+.form_login input[type="email"],
+.form_login input[type="password"]{
+	width: 80%;
+	height: 40px;
+	margin-top: 3%;
+	margin-left: 7.75%;
+}
+
+.form_login span{
+	float: left;
+	width: 100%;
+	font: 16px 'Avenir-Book';
+	color: #eb5439;
+	margin-top: 3px;
+	text-align: center;
+}
+
+#dd_incorretos_login{
+	float: left;
+	width: 94%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font: 16px 'Avenir-Book';
+	color: #565656;
+	margin-top: 9px;
+	margin-left: 3%;
+	background: #fcd8d2;
+	border: 1px solid #eb5439;
+	text-align: center;
+}
+
+.form_login a{
+	float: left; 
+	margin-top: 4.5%;
+	font: 16px 'Avenir-Book';
+	color: #003866;
+	margin-left: 7.75%;
+}
+
+.form_login a:hover{
+	color: #017299;
+}
+
+.form_login input[type="submit"]{
+	float: right;
+	margin-top: 3%;
+	width: 30%;
+	height: 35px;
+	margin-right: 7.75%;
+	margin-bottom: 5%;
+}
+
+.invisivel{
+	float:left;
+	width:100%;
+	height:35px; /* MESMA ALTURA DO RODAPÉ */
+}
+
+.env_rodape_login{
+	float: left;
+	width: 100%;
+	height: 35px;
+    bottom:0;
+    position:absolute;
+	text-align: center;
+	background: rgba(255,255,255, 0.9);
+}
+
+.env_rodape_login p{
+	margin: 0;
+	margin-top: 7px;
+	font: 16px 'Avenir-Book';
+	color: #0b385c;
+}
+
+/*********************************************************
+FIN DA TELA DE LOGIN
+*********************************************************/

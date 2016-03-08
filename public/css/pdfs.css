@@ -1,0 +1,102 @@
+.env_logotipo{
+	float: left;
+	width: 85%;
+	text-align: center;
+}
+
+.botoes{
+	float: left;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.botoes button:last-child{
+	margin-left: 15px;
+}
+
+.env_logotipo img{
+	width: 300px;
+}
+
+.nome{
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding-bottom: 10px;
+	color: #092f57;
+	font-size: 21px !important;
+}	
+
+.resultados{
+	float: left;
+	margin: 0px;
+	margin-top: 10px;
+	width: 100%;
+	color: #092f57;
+	font-size: 18px;
+}
+
+.tt_resultados{
+	float: left;
+	width: 100%;
+}
+
+.tt_resultados p{
+	float: left;
+	margin: 0px;
+	margin-right: 20px;
+	color: #6f6f6e;
+}
+
+.tt_resultados p span{
+	color: #017299;
+}
+
+.hr{float:left; width: 100%;}
+
+.env_resultado_paciente{float:left; width: 100%;}
+
+.env_resultado_paciente p{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 0px;
+}
+
+.NEP{
+	font-weight: normal;
+	float: left;
+	width: 100%;
+	font-size: 16px;
+	margin: 0px;
+	margin-top: 5px;
+	color: #092f57;
+}
+
+.RsEx,
+.DtEn,
+.RsIN,
+.RsIC{
+	float: left;
+	margin-top: 1px;
+	color: #6f6f6e;	
+	text-align: justify;
+}
+
+.DtEn{color: rgb(241, 146, 44)}
+.RsIN{color: #092f57;}
+.RsIC{color: #fe0d0d;}
+
+.STt,
+.STtIN,
+.STtIC{
+	float: left;
+	width: auto; 
+	padding-right: 1%;
+	color: #017299; 
+	font-size: 16px;
+}
+
+.STtIN{color: #092f57;}
+.STtIC{color: #fe0d0d;}
